@@ -20,7 +20,6 @@
         <maven.compiler.plugin.version>3.7.0</maven.compiler.plugin.version>
         <!-- Maven Site -->
         <maven.site.plugin.version>3.7</maven.site.plugin.version>
-        <maven.jxr.plugin.version>2.5</maven.jxr.plugin.version>
         <maven.javadoc.plugin.version>3.0.0</maven.javadoc.plugin.version>
         <maven.project.info.reports.plugin.version>2.9</maven.project.info.reports.plugin.version>
         <maven.project.info.reports.version>2.9</maven.project.info.reports.version>
@@ -90,18 +89,6 @@
                     <reportSet>
                         <reports>
                             <report>javadoc</report>
-                        </reports>
-                    </reportSet>
-                </reportSets>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jxr-plugin</artifactId>
-                <version>${maven.jxr.plugin.version}</version>
-                <reportSets>
-                    <reportSet>
-                        <reports>
-                            <report>jxr</report>
                         </reports>
                     </reportSet>
                 </reportSets>
