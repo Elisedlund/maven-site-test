@@ -62,6 +62,7 @@
                 </executions>
                 <configuration>
                     <chmod>false</chmod>
+                    <outputDirectory>docs/</outputDirectory>
                 </configuration>
                 <dependencies>
                     <dependency>
