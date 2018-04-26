@@ -11,21 +11,22 @@
         <url>http://www.ericsson.com/</url>
     </organization>
     <prerequisites>
-        <maven>3.0</maven>
+        <maven>3.3.9</maven>
     </prerequisites>
     <properties>
-        <scm.repo.url>scm:git:git@github.com:Elisedlund-ericsson/${project.artifactId}.git</scm.repo.url>
-        <scm.repo.url.web>https://github.com/Elisedlund-ericsson/${project.artifactId}</scm.repo.url.web>
         <java.version>1.8</java.version>
-        <maven.compiler.plugin.version>3.7.0</maven.compiler.plugin.version>
         <compiler.source.java.version>${java.version}</compiler.source.java.version>
         <compiler.target.java.version>${java.version}</compiler.target.java.version>
-        <compiler.compliance.java.version>${java.version}</compiler.compliance.java.version>
+        <maven.compiler.plugin.version>3.7.0</maven.compiler.plugin.version>
         <!-- Maven Site -->
-        <maven.site.plugin.version>3.6</maven.site.plugin.version>
+        <maven.site.plugin.version>3.7</maven.site.plugin.version>
         <maven.jxr.plugin.version>2.5</maven.jxr.plugin.version>
+        <maven.javadoc.plugin.version>3.0.0</maven.javadoc.plugin.version>
         <maven.project.info.reports.plugin.version>2.9</maven.project.info.reports.plugin.version>
         <maven.project.info.reports.version>2.9</maven.project.info.reports.version>
+        <doxia.include.macro.version>1.1</doxia.include.macro.version>
+        <scm.repo.url>scm:git:git@github.com:Elisedlund-ericsson/${project.artifactId}.git</scm.repo.url>
+        <scm.repo.url.web>https://github.com/Elisedlund-ericsson/${project.artifactId}</scm.repo.url.web>
     </properties>
 
     <dependencies>
@@ -61,14 +62,13 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <chmod>false</chmod>
                     <outputDirectory>docs/</outputDirectory>
                 </configuration>
                 <dependencies>
                     <dependency>
                         <groupId>org.tinyjee.dim</groupId>
                         <artifactId>doxia-include-macro</artifactId>
-                        <version>1.1</version>
+                        <version>${doxia.include.macro.version}</version>
                     </dependency>
                 </dependencies>
             </plugin>
@@ -113,5 +113,4 @@
         <url>${scm.repo.url.web}</url>
         <developerConnection>${scm.repo.url}</developerConnection>
     </scm>
-
 </project>
