@@ -1,3 +1,3 @@
 ## See site at:
 
-https://Elisedlund-ericsson.github.io/maven-site-test
+https://Elisedlund.github.io/maven-site-test

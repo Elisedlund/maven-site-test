@@ -5,7 +5,7 @@
     <artifactId>maven-site-test</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <description>Test description</description>
-    <url>https://Elisedlund-ericsson.github.io/${project.artifactId}</url>
+    <url>https://Elisedlund.github.io/${project.artifactId}</url>
     <organization>
         <name>Ericsson</name>
         <url>http://www.ericsson.com/</url>
@@ -24,8 +24,8 @@
         <maven.project.info.reports.plugin.version>2.9</maven.project.info.reports.plugin.version>
         <maven.project.info.reports.version>2.9</maven.project.info.reports.version>
         <doxia.include.macro.version>1.1</doxia.include.macro.version>
-        <scm.repo.url>scm:git:git@github.com:Elisedlund-ericsson/${project.artifactId}.git</scm.repo.url>
-        <scm.repo.url.web>https://github.com/Elisedlund-ericsson/${project.artifactId}</scm.repo.url.web>
+        <scm.repo.url>scm:git:git@github.com:Elisedlund/${project.artifactId}.git</scm.repo.url>
+        <scm.repo.url.web>https://github.com/Elisedlund/${project.artifactId}</scm.repo.url.web>
     </properties>
 
     <dependencies>
