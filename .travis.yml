@@ -9,9 +9,6 @@ cache:
   - $HOME/.m2
 
 before_script:
- - git config user.name "$COMMIT_AUTHOR_NAME"
- - git config user.email "$COMMIT_AUTHOR_EMAIL"
- - export COMMIT_MESSAGE=`git log -1 --oneline`
 
 script:
   - mvn clean install
