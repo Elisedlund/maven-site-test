@@ -6,7 +6,7 @@
     <bannerLeft>
         <name>${project.name}</name>
         <href>./index.html</href>
-        <!--  <src>./images/logo.png</src>  -->
+         <src>./images/logo.png</src> 
     </bannerLeft>
 
 

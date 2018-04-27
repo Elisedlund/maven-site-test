@@ -1,7 +1,5 @@
 package examples;
 
-import java.io.FileNotFoundException;
-
 /**
  * example class.
  */
