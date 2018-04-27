@@ -12,7 +12,7 @@ public class AddTest {
         assertTrue(Add.add(1, 1) == 2);
     }
 
-    @Test
+    @Test(enabled=false)
     public void addFailTest() throws Exception {
         assertTrue(Add.add(1, 1) == 0);
     }
